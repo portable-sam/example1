@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  min-width: 1860px;
+  font-size: 1.8rem;
+}
+.container {
+  max-width: 1400px;
+  background: orange;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+.header {
+  background: gray;
+  height: 70px;
+}
+.logo {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  text-align: right;
+}
+.list {
+  margin: 0;
+}
+.list-item {
+  display: inline-block;
+}
+.main {
+  background: lime;
+}
+
+/* Main */
+
+.hero-section {
+  background: limegreen;
+}
+
+.main-content {
+  background: lightcoral;
+  float: left;
+  width: 70%;
+}
+
+.side-content {
+  background: aquamarine;
+  float: right;
+  width: 30%;
+}
+
+/* content-info */
+
+.content-info {
+  background: seagreen;
+}
+
+.links {
+  background: lightgreen;
+}
+
+.footer {
+  background: violet;
+}
